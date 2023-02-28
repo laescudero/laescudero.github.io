@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Luis Alberto Escudero
+    - name: Citizenship
+      value: Argentine.
+             Recognition of Italian citizenship awaiting court decision in May 2023.
+    - name: Working permit
+      value: RWR+ (Free access to the labour market in Austria)
     - name: Languages
-      value: English, German
+      value: English (C1), German (B1), Spanish (Native) 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Mathematics
+      institution: University of Vienna, Austria
+      year: 2018- dato
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Currently pursuing doctoral studies in Mathematics under the joint supervision of Doz. Dr. José Luis Romero and Dr. Günther Koliander from the Acoustic Research Institute (OEAW).
 
-- title: Experience
+    - title: Licenciatura en Cs. Matemáticas
+      institution: University of Buenos Aires, Argentina
+      year: 2018
+      description:
+        - 6-year degree program which combined Bachelor's and Master's level studies into a single program.
+        - Throughout the program, I studied a broad range of mathematical topics such as calculus, algebra, geometry, topology, analysis, and probability. Additionally, I pursued elective courses from the Computer Science curriculum and Quantitative Finance.
+        - "Average grade: 9.21 / 10. No failed exams."
+        - "Note: The Argentinian grading system assigns marks from 1 to 10, where '10' is the best grade and '1' is the worst one."
+
+- title: Academic positions
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD student
+      institution: Acoustic Research Institute, Austrian Academy of Sciences (OEAW)
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research on different topics from the realm of Time-Frequency Analysis and Computational Mathematics.
+        - Development of simulations of random point processes in Octave/Matlab.
+    
+    - title: Undergraduate Teaching Assistant
+      institution: University of Buenos Aires, Argentina
+      year: 2016-2018
       description:
-        - Description 1.
-        - Description 2.
+        - Teaching activities as undergraduate student on Algebra, Calculus and Numerical Analysis at the University of Buenos Aires.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Non-academic working experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: IT Consultant & Cisco Expert
+      institution: Self-employed
+      year: 2007-2018
+      description:
+        -  Consultancy on design and deployment of IP networks based on Cisco Systems infrastructure.
+        -  Trainer for several ISPs and other institutions on the Microsoft MCSA and Cisco's CCNA/CCNP curricula.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Development and scientific tools
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming languages 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - C++
+        - Haskell
+        - LaTeX
+        - MATLAB/Octave
+        - "Python (Libraries: Numpy and Sympy)"
+        - PHP
+        - SQL
+        - Wolfram Mathematica
+    - title: My <a href=https://github.com/laescudero> GitHub</a> repositories.
+
+- title: Conference & Guest Talks
+  type: time_table
+  contents:
+    - title: Multiple sampling and interpolation in weighted Fock spaces
+      year: 29.09.2021
+      institution: Annual meeting of the German and Austrian Mathematical Societies (DMV-ÖMG), Passau, Germany.
+    
+    - title: Hearing the shape of a drum
+      year: 16.08.2021
+      institution: DAGA 2021 - 47th Annual meeting in Acoustics, Vienna, Austria.
+
+    - title: Multiple sampling and interpolation in weighted Fock spaces
+      year: 13.10.2020
+      institution: Faculty of Exact and Natural Sciences - University of Buenos Aires.
+
+- title: Seminar Talks
+  type: time_table
+  contents:
+    - year: 21.10.2020
+      institution: NuHAG seminar - University of Vienna
+      title: Denoising and block thresholding
+
+    - year: 16.05.2019
+      institution: NuHAG seminar - University of Vienna
+      title: On interpolation in Hilbert spaces of analytic functions
+
+    - year: 05.12.2018
+      institution: NuHAG seminar - University of Vienna
+      title: Hearing the shape of a triangle
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> <a href=https://youtube.com/laescudero>Piano playing</a>.
