@@ -18,4 +18,4 @@ I am a PhD student at the University of Vienna working under the supervision of 
 
 My research primarily focuses on Time-Frequency Analysis, covering a wide range of topics from Complex Analysis to the computation and statistics of  zeros of Time-Frequency transforms of signals contaminated with noise.
 
-In addition to my current role as a mathematician, I also have a keen interest in Computer Science and Quantitative Finance.
+In addition to my current role as a mathematician, I also have a keen interest in Telecommunications and Computer Science.
